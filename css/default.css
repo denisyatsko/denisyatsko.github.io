@@ -258,6 +258,12 @@
   .title_img-wrapper {
       width: 45%;
   }
+  .title_p1 {
+      font-size: 1.5em;
+  }
+  .title_p2 {
+      font-size: 1.3em;
+  }
 /* eof events */
   
 }
