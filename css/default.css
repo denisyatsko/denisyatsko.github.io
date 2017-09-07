@@ -25,10 +25,11 @@
   body {
       font-size: 13px !important;
     }
-  .title_copyright {
-    justify-content: flex-start;
-    padding-left: 3%;
-  }
+    .title_copyright {
+      justify-content: flex-start;
+      padding-left: 10%;
+      padding-bottom: 2%;
+    }
     .remodal_border:after {
       top: 30px;
     }
@@ -48,9 +49,10 @@
       margin-left: 7% !important;
   }
   .contacts__title_wrapper {
-      margin-left: 10%;
-      padding: 50px 25px 25px 25px;
-  }
+    margin-left: 11%;
+    padding: 15px;
+    padding-top: 25px !important;
+   }
   .contacts__title-p1:first-child {
       margin-top: 2em;
   }
@@ -68,8 +70,8 @@
     .fa-bars-span {
     bottom: 4px;
   }
-    .remodal_border:after {
-      top: 23px;
+  .remodal_border:after {
+    top: 23px;
   }
   .remodal_border:before {
       top: 23px;
@@ -113,8 +115,11 @@
   .form_input label {
       display: none;
   }
+  #remodal_new {
+    width: 33%;
+  }
   #to {
-      width: 100%;
+      display: none;
   }
   #from {
     width: 100%;
@@ -160,6 +165,9 @@
   ul, ol {
       padding-left: 10px !important;
   }
+  .title_copyright-p {
+    font-size: .6em;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -168,11 +176,11 @@
       font-size: 10px !important;
       overflow: visible !important;
     }
-    .globalHeader {
-      padding-top: 3%;
-      padding-bottom: 3%;
+  .globalHeader {
+    padding-top: 3%;
+    padding-bottom: 3%;
   } 
-    .header_1 {
+  .header_1 {
     flex-basis: 23%;
   }
   .header_2 {
@@ -197,41 +205,10 @@
   #contacts_display {
     display: none;
   }
-  .contacts__title {
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    -o-flex-direction: column;
-    flex-direction: column;
-    top: 20vh;
-  }
   .contacts__title-input {
     border-bottom: 3px solid;
     padding: 5px;
-    font-size: 1.8em;
     margin-bottom: 1.2em;
-  }
-  .cont-cont {
-    margin: 0 !important;
-    width: 100%;
-    text-align: center;
-    font-size: 1.5em;
-  }
-  .contacts__title_wrapper {
-      margin: 0;
-      padding-top: 25px !important;
-      width: 100%;
-  }
-  .contacts__title_wrapper form {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .contacts__title_wrapper-h2 {
-    margin: 1.5em;
-    font-size: 2.3em;
-  }
-  .contacts__title-p2 {
-      font-size: 1.5em;
   }
   .dw_partners {
       width: 80%;
@@ -277,6 +254,9 @@
   .tab__img-wrapper {
     margin-top: 20px;
     margin-bottom: 65px;
+  }
+  .title_img-wrapper {
+      width: 45%;
   }
 /* eof events */
   
@@ -331,8 +311,9 @@
       font-size: 1.05em;
   }
   .title_copyright {
-      bottom: 5vh;
-      font-size: .9em;
+      padding: 0;
+      padding-left: 2%;
+      width: 80%;
   }
   .header_1-logo {
     width: 80% !important;
@@ -364,11 +345,8 @@
   .title_img-wrapper {
     width: 55%;
   }
-  .wrapper {
-    height: 60vh;
-  }
   #remodal_new {
-    width: 80%;
+      width: 80%;
       border: 2px solid #bebebe;
       right: 10% !important;
       top: 20%;
@@ -434,13 +412,53 @@ body {
 
 
 /* orientation */
-
-@media screen and (orientation: landscape) { 
- 
+@media screen and (orientation: landscape) and (max-width : 768px) { 
+  .title_copyright {
+      padding-bottom: 0px;
+  }
 }
-
-@media screen and (orientation: portrait) { 
-
+@media screen and (orientation: portrait) and (max-width : 1200px) {
+  .contacts__title_wrapper-h2 {
+    margin-top: 1em;
+  }
+}
+@media screen and (orientation: portrait) and (max-width : 768px) { 
+  .contacts__title {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    top: 10%;
+  }
+  .contacts__title_wrapper {
+    margin: 0;
+    padding-top: 25px !important;
+    width: 100%;
+  }
+  .contacts__title_wrapper form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contacts__title_wrapper-h2 {
+    margin: 1.5em;
+    font-size: 2.3em;
+  }
+  .contacts__title-p2 {
+    font-size: 1.5em;
+  }
+  .cont-cont {
+    margin: 0 !important;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .contacts__title-input {
+    border-bottom: 3px solid;
+    padding: 5px;
+    font-size: 1.8em;
+    margin-bottom: 1.2em;
+  }
 }
 
 /* eof orientation*/
