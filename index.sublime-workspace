@@ -1,0 +1,797 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fl",
+				"flex-end"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"bordr",
+				"border"
+			],
+			[
+				"ema",
+				"E-mail"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"e",
+				"eyebrow"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"te",
+				"text_color"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"scr",
+				"scrollTop"
+			],
+			[
+				"s",
+				"scroll"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"mai",
+				"main_color"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"fil",
+				"filter-1"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"an",
+				"animation-delay"
+			],
+			[
+				"top",
+				"top-header"
+			],
+			[
+				"wra",
+				"wrapper-2"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"border-bottom",
+				"border-bottom-right-radius"
+			],
+			[
+				"border-top",
+				"border-top-right-radius"
+			],
+			[
+				"border-to",
+				"border-top-right-radius"
+			],
+			[
+				"i",
+				"inset"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"t",
+				"task"
+			],
+			[
+				"b",
+				"buildJs"
+			],
+			[
+				"browser",
+				"browserSync"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"In",
+				"fadeIn"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"ce",
+				"cover"
+			],
+			[
+				"RG",
+				"rgba()"
+			],
+			[
+				"r",
+				"required	Attr"
+			],
+			[
+				"p",
+				"placeholder	Attr"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"pt",
+				"padding-top"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"back",
+				"background-attachment"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"lh",
+				"line-height"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"block",
+				"block"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"I",
+				"isEven"
+			],
+			[
+				"sr",
+				"script	Tag"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"text-a",
+				"text-anchor"
+			],
+			[
+				"ht",
+				"height"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"o",
+				"ol	Tag"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"ca",
+				"caption	Tag"
+			],
+			[
+				"ti",
+				"title	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"gulp",
+				"Gulp"
+			],
+			[
+				"gu",
+				"Gulp"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Frond-end/OpenServer/domains/lavconsult-wp/wp-content/themes/LAVconsult/footer.php",
+		"/D/Frond-end/OpenServer/domains/lavconsult-wp/wp-content/themes/LAVconsult/header.php",
+		"/D/Frond-end/OpenServer/domains/lavconsult-wp/wp-content/themes/LAVconsult/index.php",
+		"/D/Frond-end/My Projects/ira-mua_wp/header.php",
+		"/D/Frond-end/My Projects/ira-mua_wp/footer.php",
+		"/D/Frond-end/OpenServer/domains/lavconsult-wp/wp-content/themes/LAVconsult/functions.php",
+		"/D/Frond-end/My Projects/ira-mua_wp/functions.php",
+		"/D/Frond-end/OpenServer/domains/lavconsult-wp/wp-content/themes/LAVconsult/style.css",
+		"/D/Frond-end/OpenServer/domains/lavconsult-wp/wp-content/themes/LAVconsult/theme-options.php",
+		"/D/Frond-end/OpenServer/domains/lavconsult-local/index.html",
+		"/D/Frond-end/OpenServer/domains/lavconsult-local/partners.html",
+		"/D/Frond-end/OpenServer/domains/lavconsult-local/css/creative.css",
+		"/D/Frond-end/OpenServer/domains/lavconsult-local/css/default.css",
+		"/D/Frond-end/OpenServer/domains/lavconsult-local/css/media.css",
+		"/D/Frond-end/OpenServer/domains/lavconsult-local/contacts.html",
+		"/D/Frond-end/OpenServer/domains/lavconsult-wp/wp-config.php",
+		"/D/Frond-end/OpenServer/domains/lavconsult-local/events.html",
+		"/D/Frond-end/OpenServer/domains/lavconsult-local/default.css",
+		"/D/Frond-end/My Projects/Vzil/sass/main.sass",
+		"/D/Frond-end/My Projects/Vzil/sass/_vars.sass",
+		"/D/Frond-end/My Projects/Venezia/gulpfile.js",
+		"/D/Frond-end/Примеры и шаблоны/optimizedhtml-start-template-master/app/index.html",
+		"/D/Frond-end/My Projects/Venezia/app/sass/_mixins/_font-face.sass",
+		"/D/Frond-end/My Projects/3d/css/responsive.css",
+		"/D/Frond-end/My Projects/Vzil/app/services.html",
+		"/D/Frond-end/My Projects/Vzil/app/index.html",
+		"/D/Frond-end/Примеры и шаблоны/start_html-master/_clean_html/css/media.css",
+		"/D/Program Files (x86)/OpenServer/domains/lavconsult-local/css/creative.css",
+		"/D/Program Files (x86)/OpenServer/domains/lavconsult-local/index.html",
+		"/D/Program Files (x86)/OpenServer/domains/lavconsult-local/css/default.css",
+		"/D/Program Files (x86)/OpenServer/domains/lavconsult-local/remodal/remodal-default-theme.css",
+		"/D/Program Files (x86)/OpenServer/domains/lavconsult-local/js/tokenizer.js",
+		"/D/Program Files (x86)/OpenServer/domains/lavconsult-local/js/parser.js",
+		"/D/Program Files (x86)/OpenServer/domains/lavconsult-local/js/vminpoly.js",
+		"/D/Program Files (x86)/OpenServer/domains/lavconsult-local/js/creative.js",
+		"/D/Program Files (x86)/OpenServer/domains/lavconsult-local/remodal/remodal.js",
+		"/D/Program Files (x86)/OpenServer/domains/lavconsult.com.ua/css/creative.css",
+		"/D/Program Files (x86)/OpenServer/domains/lavconsult.com.ua/index.html",
+		"/D/Program Files (x86)/OpenServer/domains/lavconsult.com.ua/css/default.css",
+		"/D/Program Files (x86)/OpenServer/domains/lavconsult.com.ua/sass/creative.scss",
+		"/C/Users/footb/Downloads/3d/js/master.js",
+		"/C/Users/footb/Downloads/3d/css/style.css",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/index.html",
+		"/C/Users/footb/Downloads/3d/index.html",
+		"/D/Frond-end/My Projects/Vzil/app/js/common.js",
+		"/D/Frond-end/My Projects/Vzil/sass/header.sass",
+		"/D/Frond-end/My Projects/Vzil/app/contacts.html",
+		"/C/Users/footb/Downloads/3d/css/prettyPhoto.css",
+		"/C/Users/footb/Downloads/3d/js/jquery.prettyPhoto.js",
+		"/C/Users/footb/Downloads/3d/fonts/font-awesome/css/font-awesome.css",
+		"/C/Users/footb/Downloads/3d/js/custom.js",
+		"/C/Users/footb/Downloads/3d/css/responsive.css",
+		"/C/Users/footb/Downloads/3d/css/animate.min.css",
+		"/C/Users/footb/Downloads/3d/css/bootstrap.min.css",
+		"/C/Users/footb/Downloads/3d/css/color1.css",
+		"/C/Users/footb/Downloads/3d/css/loading.css",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/responsive.css",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/prettyPhoto.css",
+		"/C/Users/footb/Desktop/www/js/master.js",
+		"/C/Users/footb/Desktop/www/index.html",
+		"/C/Users/footb/Desktop/www/css/style.css",
+		"/C/Users/footb/Desktop/www/css/responsive.css",
+		"/C/Users/footb/Desktop/www/css/prettyPhoto.css",
+		"/C/Users/footb/Desktop/www/css/color6.css",
+		"/C/Users/footb/Desktop/www/js/jquery.prettyPhoto.js",
+		"/D/Frond-end/My Projects/my-wordpress-landing-page/clean_html/index.html",
+		"/C/Users/footb/Desktop/www/js/custom.js",
+		"/D/Frond-end/My Projects/webfreeks_test/css/media.css",
+		"/C/Users/footb/Desktop/www/js/jquery.parallax-1.1.3.js",
+		"/C/Users/footb/Desktop/www/js/bootstrap.min.js",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/functions.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/header.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/footer.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/price.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/index.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/services.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/common.min.js",
+		"/D/Frond-end/My Projects/Vzil/sass/_media.sass",
+		"/D/Frond-end/My Projects/Vzil/app/js/common.min.js",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/about-me.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/contacts.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/common.min 2.js",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/D/Frond-end/My Projects/Vzil/app/about-me.html",
+		"/D/Frond-end/My Projects/Vzil/app/price.html",
+		"/D/Frond-end/My Projects/Vzil/app/css/header.min.css",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-2/header.min.css",
+		"/D/Frond-end/My Projects/ROAR/app/sass/main.sass",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/header.php",
+		"/D/Frond-end/My Projects/ROAR/app/js/common.js",
+		"/D/Frond-end/My Projects/ROAR/app/js/common.min.js",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/functions.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/about-me.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/services.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/price.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/contacts.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/common.min.js",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/index 2.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/wp-mail.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/mail.php",
+		"/C/Users/footb/Desktop/footer.php",
+		"/D/Frond-end/Sublime/Data/Packages/CSScomb/Default.sublime-keymap",
+		"/C/Users/footb/Desktop/services.php",
+		"/C/Users/footb/Desktop/price.php",
+		"/C/Users/footb/Desktop/contacts.php",
+		"/C/Users/footb/Desktop/about-me.php",
+		"/D/Frond-end/My Projects/Vzil/app/js/libs.js",
+		"/C/Users/footb/Desktop/header.php",
+		"/D/Frond-end/My Projects/Vzil/sass/header-about-me.sass",
+		"/D/Frond-end/My Projects/Vzil/sass/header-index.sass",
+		"/D/Frond-end/My Projects/Vzil/app/css/header-index.min.css",
+		"/C/Users/footb/Desktop/about-me.html",
+		"/C/Users/footb/Desktop/index.php",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/index.html",
+		"/D/Frond-end/Примеры и шаблоны/Джедай верстки 5/_ready_html/app/index.html",
+		"/C/Users/footb/AppData/Local/Temp/fz3temp-1/function.php",
+		"/C/Users/footb/Desktop/function.php",
+		"/D/Frond-end/My Projects/ROAR/app/index.html",
+		"/C/Users/footb/Desktop/style.css",
+		"/D/Frond-end/My Projects/ROAR/app/sass/_media.sass",
+		"/D/Frond-end/My Projects/ROAR/app/sass/_vars.sass",
+		"/D/Frond-end/My Projects/ROAR/app/sass/_libs.sass",
+		"/D/Frond-end/My Projects/ROAR/app/sass/_mixins/_font-face.sass",
+		"/D/Frond-end/My Projects/ROAR/app/sass/_fonts.sass",
+		"/D/Frond-end/My Projects/ROAR test task/index.html",
+		"/D/Frond-end/My Projects/ROAR/gulpfile.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"remodal_submenu-p",
+			"remodal_new",
+			".modal",
+			"fa-envelope",
+			"title_copyright",
+			".globalHeader",
+			".header_",
+			".remodal",
+			".header_",
+			".header",
+			"header",
+			".header_1",
+			"title_p1",
+			".contacts__title_wrappe",
+			"important",
+			".contacts__title-input ",
+			"cont-cont",
+			".contacts__title_wrapper",
+			".contacts__title",
+			"title_copyright",
+			".title_copyright",
+			".wrapper",
+			"title_copyright",
+			"title_p-wrapper",
+			"title_copyright",
+			"html",
+			"remodal",
+			".remodal_submenu-p",
+			"title",
+			"toTop",
+			"events_title",
+			"vh__events_title",
+			"tab",
+			"#remodal_new",
+			"form_input",
+			"vh__form_input",
+			".cont-cont",
+			".fa-bars-span",
+			"title_copyright",
+			"title_p-wrapper",
+			"dvigaem",
+			"title",
+			"title_p2",
+			".title_p2",
+			".title_copyright-p",
+			"title",
+			"title_img-wrapper",
+			"contacts__title_wrapper-h2",
+			"vh-contacts__title_wrapper-h2",
+			".vh-contacts__wrapper",
+			"contacts__title_wrapper",
+			"globalHeader",
+			"boo",
+			".remodal:before ",
+			".remodal",
+			"title_p1",
+			"title_img-wrapper",
+			"text-right",
+			"title_copyright",
+			"vh__title_img",
+			"@media screen and (max-device-width: 891px)",
+			".vh__",
+			".vh__r",
+			"#remodal_imp",
+			".remodal",
+			"float",
+			"fa-bars-span",
+			"header",
+			"max-width",
+			".vh",
+			"vh",
+			"vh__header",
+			".vh__header_1-logo",
+			"border-box",
+			"earth-wrapper",
+			"header_1-logo",
+			"colo",
+			"fullResImage",
+			"pointer-event",
+			"pointer-events:none",
+			"fa",
+			"bg-po",
+			".item",
+			"item active",
+			"popup-close-btn",
+			"help",
+			"playButton",
+			"closeButton",
+			".rightTopShelf",
+			".closeButton",
+			"rightTopShelf",
+			".iframe-wrapper",
+			"img-d-xs",
+			"120",
+			"hoverCont",
+			"pret",
+			"pre",
+			"162",
+			"default_width",
+			"pp_hoverContainer",
+			".me",
+			"abou",
+			"galimg",
+			"transform",
+			"sm",
+			"windowSize",
+			"menu-item",
+			"menu",
+			"item",
+			": ",
+			"menu-ite",
+			"display:inline-block",
+			"display: inline-block",
+			"p{",
+			"inli",
+			"phone",
+			"portf",
+			"section-header",
+			"descr",
+			"section-h",
+			"seaction",
+			"mail.php",
+			"windowSize",
+			"smal",
+			"large-menu",
+			"small",
+			"main-menu",
+			"main"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

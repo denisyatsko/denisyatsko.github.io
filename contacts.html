@@ -70,15 +70,37 @@
             <img src="img/earth.png" alt="logo" class="header_1-logo" />
         </div>
         <div class="header_2-link">
-            <a href="index.html" class="header_2-link-a1 transition" id="en">EN</a>
-            <a href="ua/index.html" class="header_2-link-a2 transition" id="ua">UA</a>
+            <a href="contacts.html" class="header_2-link-a1 transition" id="en">EN</a>
+            <a href="ua/contacts.html" class="header_2-link-a2 transition" id="ua">UA</a>
         </div>
     </div>
     <div class="header_3 hidden-xs">
         <p class="header_3-p">+38 (044) 337 79 51</p>
     </div>
     <div class="header_4">
-        <a data-remodal-target="modal" class="fa-link"><i class="transition fa fa-envelope"></i></a>
+        <a data-remodal-target="modal" class="fa-link">
+            <i class="transition fa fa-envelope">
+                <!-- modal -->
+                    <div class="remodal" id="remodal_new" data-remodal-id="modal" data-remodal-options="hashTracking: false"><!-- , closeOnOutsideClick: false -->
+                      <button data-remodal-action="close" class="remodal-close"></button>
+                      
+
+                        <div class="form_input" id="displaynone">
+                            <label for="to">To:</label>
+                            <input type="text" id="to" value="office@lavconsult.com.ua" disabled />
+                        </div>
+                      <form method="post" id="ajax_form" action="post_modal.php" >  
+                        <div class="form_input">
+                            <label for="from">From:</label>
+                            <input name="name" type="text" id="from" placeholder="Enter your e-mail" required />
+                        </div>
+                        <textarea name="phonenumber" rows="5" id="youText" required></textarea>
+                        <input class="transition" id="send" type="submit" value="Send" />
+                      </form>
+                    </div>
+                    <!-- eof modal -->
+            </i>
+        </a>
         <a href="https://www.facebook.com/LAVconsult" target="_blank" class="fa-link"><i class="transition fa fa-facebook-square"></i></a>
     </div>
     <div data-remodal-target="modal_menu" class="header_5">
@@ -131,25 +153,7 @@
 
 
 
-<!-- modal -->
-<div class="remodal" id="remodal_new" data-remodal-id="modal" data-remodal-options="hashTracking: false"><!-- , closeOnOutsideClick: false -->
-  <button data-remodal-action="close" class="remodal-close"></button>
-  
 
-    <div class="form_input" id="displaynone">
-        <label for="to">To:</label>
-        <input type="text" id="to" value="office@lavconsult.com.ua" disabled />
-    </div>
-  <form method="post" id="ajax_form" action="post_modal.php" >  
-    <div class="form_input">
-        <label for="from">From:</label>
-        <input name="name" type="text" id="from" placeholder="Enter your e-mail" required />
-    </div>
-    <textarea name="phonenumber" rows="5" id="youText" required></textarea>
-    <input class="transition" id="send" type="submit" value="Send" />
-  </form>
-</div>
-<!-- eof modal -->
 
 
 <!-- modal_menu -->
@@ -188,12 +192,12 @@
 
                 <p style="font-size:14px;" class="remodal_submenu-p">
                     LAV CONSULT ensures the development and increase
-                    <br />of the efficiency of your business, the quality of
-                    <br />management of your company by optimizing processes
-                    <br />(solving company problems) in company management or
-                    <br /> organizational development, a complex of projects
-                    <br />for the development and implementation of measures,
-                    <br />methods and tools for effective market impact.
+                    of the efficiency of your business, the quality of
+                    management of your company by optimizing processes
+                    (solving company problems) in company management or
+                    organizational development, a complex of projects
+                    for the development and implementation of measures,
+                    methods and tools for effective market impact.
                 </p>
 
             <li class="remodal_submenu-li transition">Conference-services
@@ -202,10 +206,10 @@
 
                 <p style="font-size:14px;" class="remodal_submenu-p">
                     LAV CONSULT will do their best in performing
-                    <br />the complex of various services for the development,
-                    <br />preparation and realization of bright events
-                    <br />of various formats, which will become an effective tool
-                    <br />for building the image and reputation of your company.
+                    the complex of various services for the development,
+                    preparation and realization of bright events
+                    of various formats, which will become an effective tool
+                    for building the image and reputation of your company.
                 </p>
 
             <li class="remodal_submenu-li transition">Educational programs 
@@ -213,25 +217,23 @@
 
                 <p style="font-size:14px;" class="remodal_submenu-p">
                     LAV CONSULT successfully organizes and conducts
-                    <br />efficient,open and corporate training, seminars,
-                    <br />school workshops, master classes, educational
-                    <br />projects, strategic sessions, post-training
-                    <br />consulting for executives, and owners of companies.
-                    <br />Post-training support for participants.
+                    efficient,open and corporate training, seminars,
+                    school workshops, master classes, educational
+                    projects, strategic sessions, post-training
+                    consulting for executives, and owners of companies.
+                    Post-training support for participants.
                 </p>
 
             <li class="remodal_submenu-li transition">Marketing and promotion
             </li>
                 <p style="font-size:14px;" class="remodal_submenu-p">
                     LAV CONSULT provides a full range of marketing services
-                    <br />both at the stage of entering the market and at the stage
-                    <br />of brand development of the company and products
-                    <br />(marketing research comprehensive market analysis,
-                    <br />marketing strategy development, sales, brand management,
-                    <br />advertising and PR, etc.)
-
+                    both at the stage of entering the market and at the stage
+                    of brand development of the company and products
+                    (marketing research comprehensive market analysis,
+                    marketing strategy development, sales, brand management,
+                    advertising and PR, etc.)
                 </p>
-
         </ul>
     </div>
 </div>

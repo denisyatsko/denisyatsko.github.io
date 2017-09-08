@@ -50,16 +50,11 @@ body {
   width: 100%;
   color: #000;
   z-index: 2;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 3.64583%;
-  padding-right: 3.64583%;
+  padding: 2.5em 3em;
 }
 
 .header_1 {
-  /*-ms-flex-preferred-size: 14%;
-      flex-basis: 14%;*/
-      width: 14%;
+  width: 14%;
 }
 
 .header_2 {
@@ -75,9 +70,7 @@ body {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
           flex-direction: row;
-  /*-ms-flex-preferred-size: 9%;
-      flex-basis: 9%;*/
-    width: 14%;
+  width: 14%;
 }
 
 .header_2-links {
@@ -118,9 +111,7 @@ body {
 }
 
 .header_3 {
-  /*-ms-flex-preferred-size: 30%;
-      flex-basis: 30%*/
-      width: 30%;
+  width: 30%;
 }
 
 .header_3-p {
@@ -132,9 +123,7 @@ body {
 }
 
 .header_4 {
-  /*-ms-flex-preferred-size: 45%;
-      flex-basis: 45%;*/
-      width: 45%;
+  width: 45%;
 }
 
 .header_4 .fa {
@@ -153,14 +142,15 @@ body {
 .fa-link {
   text-decoration: none;
 }
+.fa-envelope {
+  /*position: relative;*/
+}
 
 .fa-chain:before, .fa-link:before {
   content: no-close-quote !important;
 }
 
 .header_5 {
-  /*-ms-flex-preferred-size: 2%;
-      flex-basis: 2%;*/
   width: 2%;
   z-index: 9999;
 }
@@ -295,6 +285,7 @@ body {
 }
 
 .remodal_submenu-p {
+  max-width: 400px; 
   font-size: 1em;
   font-weight: normal;
   line-height: 1.2;
@@ -421,7 +412,7 @@ body {
   line-height: 1.2;
   text-align: left;
   width: 100%;
-  padding-bottom: 60px;
+  padding-bottom: 25px;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
@@ -609,7 +600,10 @@ body {
 /*remodal*/
 #remodal_new {
   border: 4px solid #b8b8b8;
-  width: 27.60417%;
+  width: 24.60417%;
+  /*position: absolute;*/
+  top: 130px;
+  /*right: 0;*/
 }
 
 .remodal:after {
