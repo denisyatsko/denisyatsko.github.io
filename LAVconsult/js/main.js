@@ -279,6 +279,27 @@ function documentReadyInit() {
 	  	});
 	}
 
+	//events
+	$(".slider").click(function() {
+		var slider_id = $('#' + $(this).attr("rel"));
+		$(".events_tab").hide();
+		$(slider_id).show().css('display', 'flex');
+	});
+
+	//owl-carousel
+	  $(".owl-carousel").owlCarousel({
+	  	// loop:true,
+	    nav:true,
+	    navText : "",
+	    responsive:{
+        480:{
+            items:2
+        },
+        768:{
+            items:3
+        }
+    }
+	  });
 
    	//carousel
    	if (jQuery().carousel) {
