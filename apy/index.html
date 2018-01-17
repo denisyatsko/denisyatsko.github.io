@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="container flex-header">
+			<i class="fa fa-bars toggle-menu" aria-hidden="true"></i>
+			<a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+			<ul class="main-menu">
+				<li><a href="#about">Главная</a></li>
+				<li><a href="#create-t-shirt">Услуги</a></li>
+				<li><a href="#t-shirt-carousel">Каталог</a></li>
+				<li><a href="#reviews">Отзывы</a></li>
+				<li><a href="#contacts">Контакты</a></li>
+			</ul>
+			<div class="phone">
+				<i class="fa fa-phone" aria-hidden="true"></i>
+				<a href="tel:+380672341343">(067) 234 13 43</a>
+			</div>
+		</div>	
+	</header>
+	<section class="title">
+		<div class="container flex-title">
+			<h1>Современная полиграфия к вашим услугам</h1>
+			<button class="more" id="down">Узнать больше</button>
+		</div>
+	</section>
+	<section class="about" id="about">
+		<h2>Что мы печатаем?</h2>
+		<div class="flex-about">			
+			<div class="left-about-block">
+				<h3>Футболки</h3>
+				<img src="img/t-shirt.png" alt="t-shirt">
+				<button class="hover" id="to_fotorama">Подробнее</button>
+			</div>
+			<div class="line"></div>
+			<div class="right-about-block">
+				<h3>Наклейки</h3>
+				<img src="img/stickers.png" alt="stickers">
+			</div>
+		</div>
+	</section>
+	<section class="create-t-shirt" id="create-t-shirt">
+		<div class="container">
+			<div class="my-fotorama">
+				<div class="choose-color">
+					<span>Выберите цвет футболки</span>
+					<div class="color-flex">
+						<div value="Белая ткань" class="white-color active-color"></div>
+						<div value="Цветная ткань" class="black-color"></div>
+					</div>
+				</div>
+				<div class="view">
+					<img src="img/а3.png" alt="">
+				</div>
+				<div class="thumbs-container">
+					<div class="thumbs"><img src="img/а6.png" alt="7*10"><h5>A6</h5></div>
+					<div class="thumbs"><img src="img/а5.png" alt="15*20"><h5>A5</h5></div>
+					<div class="thumbs"><img src="img/а4.png" alt="21*30"><h5>A4</h5></div>
+					<div class="thumbs"><img src="img/а3.png" alt="32*45"><h5>A3</h5></div>
+					<div class="thumbs"><img src="img/а3+.png" alt="40*50"><h5>A3+</h5></div>
+				</div>				
+			</div>
+			<div class="info">
+				<div class="flex-row">
+					<div class="size">
+						<p>A3</p>
+						<p>32*45</p>
+					</div>
+					<div class="many">
+						<p>Оптом дешевле</p>
+						<p>При заказе от 10 единиц цена будет составлять <b>215*</b> грн за шт.</p>
+					</div>
+				</div>				
+				<button id="buy_btn_1" class="hover popup">Заказать</button>
+				<div class="note">
+					<p>* Цены указаны за одну единицу (принт)</p>
+					<p>* Расчёт оптовой стоимости зависит от сложности рисунка и тиража</p>
+					<p>* Подробная информация за телефоном (044) 345 23 45</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="carousel" id="t-shirt-carousel">
+		<div class="container">
+			<div class="owl-carousel t-shirt-carousel">
+			  <div class="t-shirt-item">
+			  	<div class="cost"><p>550</p></div> 
+				<img src="img/freepsd.png" alt="">
+				<div class="descr">
+					<p>Футболка мужская, белая рисунок А3</p>
+				</div>
+				<div class="hover-btn"></div>
+				<button class="buy hover popup">Заказать</button>				
+			  </div>
+			  <div class="t-shirt-item">
+			  	<div class="cost"><p>550</p></div> 
+				<img src="img/freepsd.png" alt="">
+				<div class="descr">
+					<p>Футболка мужская, красная рисунок А3</p>
+				</div>
+				<div class="hover-btn"></div>
+				<button class="buy hover popup">Заказать</button>
+			  </div>
+			  <div class="t-shirt-item">
+			  	<div class="cost"><p>550</p></div> 
+				<img src="img/freepsd.png" alt="">
+				<div class="descr">
+					<p>Футболка мужская, черная рисунок А3</p>
+				</div>
+				<div class="hover-btn"></div>
+				<button class="buy hover popup">Заказать</button>
+			  </div>
+			  <div class="t-shirt-item">
+			  	<div class="cost"><p>550</p></div> 
+				<img src="img/freepsd.png" alt="">
+				<div class="descr">
+					<p>Футболка мужская, фиолетовая рисунок А3</p>
+				</div>
+				<div class="hover-btn"></div>
+				<button class="buy hover popup">Заказать</button>
+			  </div>
+			  <div class="t-shirt-item">
+			  	<div class="cost"><p>550</p></div> 
+				<img src="img/freepsd.png" alt="">
+				<div class="descr">
+					<p>Футболка мужская, зеленая рисунок А3</p>
+				</div>
+				<div class="hover-btn"></div>
+				<button class="buy hover popup">Заказать</button>
+			  </div>
+			  <div class="t-shirt-item">
+			  	<div class="cost"><p>550</p></div> 
+				<img src="img/freepsd.png" alt="">
+				<div class="descr">
+					<p>Футболка мужская, рыжая рисунок А3</p>
+				</div>
+				<div class="hover-btn"></div>
+				<button class="buy hover popup">Заказать</button>
+			  </div>
+			  <div class="t-shirt-item">
+			  	<div class="cost"><p>550</p></div> 
+				<img src="img/freepsd.png" alt="">
+				<div class="descr">
+					<p>Футболка мужская, салатовая рисунок А3</p>
+				</div>
+				<div class="hover-btn"></div>
+				<button class="buy hover popup">Заказать</button>
+			  </div>
+			</div>
+			<div class="owl-nav">
+	            <div class="customPrevBtn"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+	            <div class="customNextBtn"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+	        </div>  
+		</div>
+	</section>
+	<section class="reviews" id="reviews">
+		<div class="container">				
+			<div class="owl-carousel reviews-carousel">
+				<div class="reviews-item">
+					<div class="avatar">
+						<img src="img/avatar.png" alt="">
+					</div>
+					<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Повстречался возвращайся текст, власти свою переписывается свой текстами, имени своего текстов необходимыми своих взгляд языкового? Инициал что использовало ты составитель?</p>
+				</div>
+				<div class="reviews-item">
+					<div class="avatar">
+						<img src="img/avatar.png" alt="">
+					</div>
+					<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Повстречался возвращайся текст,Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Повстречался возвращайся текст власти свою переписывается свой текстами, имени своего текстов необходимыми своих взгляд языкового? Инициал что использовало ты составитель?</p>
+				</div>
+				<div class="reviews-item">
+					<div class="avatar">
+						<img src="img/avatar.png" alt="">
+					</div>
+					<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Повстречался возвращайся текст, власти свою переписывается свой текстами, имени своего текстов необходимыми своих взгляд языкового? Инициал что использовало ты составитель?</p>
+				</div>
+			</div>
+			<div class="owl-nav">
+	            <div class="reviewsPrevBtn"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+	            <div class="reviewsNextBtn"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+	        </div> 
+		</div>
+	</section>
+	<footer id="contacts">
+		<h2>Свяжитесь с нами</h2>		
+		<div class="container flex-footer">			
+			<div class="contacts">
+				<a href="tel:+380672341343"><div class="icon cell-phone"></div>(067) 234 13 43</a>
+				<a href="mailto:print@gmail.com"><div class="icon mail"></div>print@gmail.com</a>
+				<a href="#"><div class="icon adress"></div>Киев, ул.Хрещатик, 24</a>
+				<a href="https://www.print.com/"><div class="icon site"></div>www.print.com</a>
+				<a href="#"><div class="icon fb"></div>print2017</a>
+				<a href="#"><div class="icon insta"></div>printst</a>
+			</div>
+			<form class="main-form forms">
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="json" value="">
+				<input type="hidden" name="admin_email" value="gryshchenko.ir@gmail.com">
+				<input type="hidden" name="form_subject" value="Заявка с сайта">
+				<!-- END Hidden Required Fields -->					
+				<input type="text" name="name"	placeholder="Ваше имя" required/>	
+				<input type="phone" name="phone" placeholder="Номер телефона" required/>
+				<button class="submit hover">Позвоните мне</button>								
+			</form>
+		</div>
+		<div class="container">
+			<p class="copy">Copyright 2017 (c)</p>
+		</div>		
+	</footer>
+	
+	<div class="bg-popup"></div>
+	<div class="forms-popup" id="popup-1">	
+		<h2>Заполните форму, чтобы оформить заказ</h2>
+		<form class="main-form forms">
+			<!-- Hidden Required Fields -->
+			<input type="hidden" name="json" value="">
+			<input type="hidden" name="admin_email" value="gryshchenko.ir@gmail.com">
+			<input type="hidden" name="form_subject" value="Заявка с сайта">
+			<!-- END Hidden Required Fields -->					
+			<input type="text" name="name"	placeholder="Ваше имя" required/>	
+			<input type="phone" name="phone" placeholder="Номер телефона" required/>
+			<button class="submit hover">Заказать</button>								
+		</form>
+	</div>
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
