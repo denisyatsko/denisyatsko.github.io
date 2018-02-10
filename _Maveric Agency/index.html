@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Test work</title>
+	<meta name="description" content="">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+</head>
+
+<body>
+	<header>
+		<a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+		<div class="toggle-menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<ul class="main-menu">
+			<li><a href="#">Ткани для интерьера</a></li>
+			<li><a href="#">Домашний текстиль</a></li>
+			<li><a href="#">Коллекции из текстиля</a></li>
+			<li><a href="#">Ресторанный текстиль</a></li>
+			<li><a href="#">Отельный текстиль</a></li>
+		</ul>
+		<ul class="user-block">
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+		</ul>
+	</header>
+	<section class="top-title">
+		<div class="container title-block">
+			<h1>Изысканный дизайн<br><span>теплых покрывал</span></h1>
+			<p class="descr">Смотрите и выбирайте, который вам по душе</p>
+			<a class="open-popup" rel="popup-2" id="see">Смотреть</a>
+		</div>
+	</section>
+	<section class="main">
+		<div class="container">
+			<div class="breadcrumbs">
+				<div class="breadcrumbs-item"><a href="#">Главная</a></div>
+				<div class="breadcrumbs-separator">/</div>
+				<div class="breadcrumbs-item"><a href="#">Каталог</a></div>
+				<div class="breadcrumbs-separator">/</div>
+				<div class="breadcrumbs-item active"><a href="#">Покрывала</a></div>
+			</div>
+			<div class="catalog">
+				<div class="sidebar">
+					<h2>Категории</h2> 
+					<div id="accordion">
+						<h3 class="filter" data-filter="all">Домашний текстиль<span>-</span></h3>
+						<div>
+							<ul>
+								<li class="filter" data-filter=".category-3" >Гобеленовые сумки</li>
+								<li class="filter" data-filter=".category-2" >Скатерти</li>
+								<li class="filter" data-filter=".category-1" >Пледы</li>
+								<li class="filter" data-filter=".category-3" >Полотенца</li>
+							</ul>
+						</div>
+						<h3>Ткани для интерьера<span>+</span></h3>
+						<div>
+							<ul>
+								<li>lorem</li>
+								<li>lorem</li>
+								<li>lorem</li>
+								<li>lorem</li>
+							</ul>
+						</div>
+						<h3>Коллекции из текстиля<span>+</span></h3>
+						<div>
+							<ul>
+								<li>lorem</li>
+								<li>lorem</li>
+								<li>lorem</li>
+								<li>lorem</li>
+							</ul>
+						</div>
+					</div>
+					<div class="range-block">
+						<h2>Цена</h2> 
+						<div id="slider-range"></div>
+						<p>
+							<input type="text" id="amount_1" readonly>
+							<span>></span>
+							<input type="text" id="amount_2" readonly>
+						</p>
+					</div>					
+				</div>
+
+				<div class="products-wrapper">
+					<select size="1" id="SortSelect">
+						<option selected="selected" disabled>Сортировать по</option>
+						<option class="opt" value="myorder:asc">От дешевых</option>
+						<option class="opt" value="myorder:descending">От дорогих</option>
+					</select>
+					<div class="products" id="mixitup">
+						<div class="mix category-1 products-item" data-myorder="170">
+							<div class="new">Новинка</div>
+							<div class="product-img-wrapper">
+								<img src="img/item_1.png" alt="">
+							</div>
+							<div class="product-descr-wrapper">
+								<div class="descr-wrapper">
+									<h4 class="item-title">Плед "клеточка" LT1070</h4>
+									<p class="price">170.00грн</p>
+								</div>
+								<div class="add-to-cart open-popup" rel="popup-1"></div>
+							</div>
+						</div>
+						<div class="mix category-2 products-item" data-myorder="5846">
+							<div class="product-img-wrapper">
+								<img src="img/item_2.png" alt="">
+							</div>
+							<div class="product-descr-wrapper">
+								<div class="descr-wrapper">
+									<h4 class="item-title">Покрывало PL03</h4>
+									<p class="price">5846.00грн</p>
+								</div>
+								<div class="add-to-cart open-popup" rel="popup-1"></div>
+							</div>
+						</div>
+						<div class="mix category-3 products-item" data-myorder="1070">
+							<div class="product-img-wrapper">
+								<img src="img/item_3.png" alt="">
+							</div>
+							<div class="product-descr-wrapper">
+								<div class="descr-wrapper">
+									<h4 class="item-title">Покрывало гобеленовое PLG03</h4>
+									<p class="price">1070.00грн</p>
+								</div>
+								<div class="add-to-cart open-popup" rel="popup-1"></div>
+							</div>
+						</div>
+						<div class="mix category-2 products-item" data-myorder="5846">
+							<div class="product-img-wrapper">
+								<img src="img/item_2.png" alt="">
+							</div>
+							<div class="product-descr-wrapper">
+								<div class="descr-wrapper">
+									<h4 class="item-title">Покрывало PL03</h4>
+									<p class="price">5846.00грн</p>
+								</div>
+								<div class="add-to-cart open-popup" rel="popup-1"></div>
+							</div>
+						</div>
+						<div class="mix category-3 products-item" data-myorder="1070">
+							<div class="product-img-wrapper">
+								<img src="img/item_3.png" alt="">
+							</div>
+							<div class="product-descr-wrapper">
+								<div class="descr-wrapper">
+									<h4 class="item-title">Покрывало гобеленовое PLG03</h4>
+									<p class="price">1070.00грн</p>
+								</div>
+								<div class="add-to-cart open-popup" rel="popup-1"></div>
+							</div>
+						</div>
+						<div class="mix category-1 products-item" data-myorder="170">
+							<div class="new">Новинка</div>
+							<div class="product-img-wrapper">
+								<img src="img/item_1.png" alt="">
+							</div>
+							<div class="product-descr-wrapper">
+								<div class="descr-wrapper">
+									<h4 class="item-title">Плед "клеточка" LT1070</h4>
+									<p class="price">170.00грн</p>
+								</div>
+								<div class="add-to-cart open-popup" rel="popup-1"></div>
+							</div>
+						</div>
+						<div class="mix category-2 products-item" data-myorder="5846">
+							<div class="product-img-wrapper">
+								<img src="img/item_2.png" alt="">
+							</div>
+							<div class="product-descr-wrapper">
+								<div class="descr-wrapper">
+									<h4 class="item-title">Покрывало PL03</h4>
+									<p class="price">5846.00грн</p>
+								</div>
+								<div class="add-to-cart open-popup" rel="popup-1"></div>
+							</div>
+						</div>
+						<div class="mix category-1 products-item" data-myorder="170">
+							<div class="product-img-wrapper">
+								<img src="img/item_1.png" alt="">
+							</div>
+							<div class="product-descr-wrapper">
+								<div class="new">Новинка</div>
+								<div class="descr-wrapper">
+									<h4 class="item-title">Плед "клеточка" LT1070</h4>
+									<p class="price">170.00грн</p>
+								</div>
+								<div class="add-to-cart open-popup" rel="popup-1"></div>
+							</div>
+						</div>
+						<div class="mix category-3 products-item" data-myorder="1070">
+							<div class="product-img-wrapper">
+								<img src="img/item_3.png" alt="">
+							</div>
+							<div class="product-descr-wrapper">
+								<div class="descr-wrapper">
+									<h4 class="item-title">Покрывало гобеленовое PLG03</h4>
+									<p class="price">1070.00грн</p>
+								</div>
+								<div class="add-to-cart open-popup" rel="popup-1"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<a href="#" class="footer-logo"><img src="img/footer-logo.png" alt="logo"></a>
+			<div class="footer-menu">
+				<div class="footer-menu-item">
+					<h5>Контакты</h5>
+					<div class="adres">
+						<div class="adres-icon"><img src="img/home.png" alt=""></div>
+						<div>
+							<p>г.Львов, Кольцевая дорога</p>
+							<p>с.Зымна Вода, ул.Яворовская, 22</p>
+							<p>ТЦ "Три Слона. Все для дома"</p>
+						</div>
+					</div>
+					<div class="phone">
+						<div class="phone-icon"><img src="img/phone.png" alt=""></div>
+						<div>
+							<a href="tel:+380676742021">+38(067)6742021;</a>
+							<a href="tel:+380636745417">+38(063)6745417</a>
+						</div>
+					</div>
+					<div class="pay">
+						<a href="#"><img src="img/visa.png" alt=""></a>
+						<a href="#"><img src="img/mastercard.png" alt=""></a>
+						<a href="#"><img src="img/paypal.png" alt=""></a>
+					</div>
+				</div>
+				<div class="footer-menu-item">
+					<h5>Магазин</h5>
+					<ul>
+						<li><a href="#">Акции</a></li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Доставка</a></li>
+						<li><a href="#">Политика безопасности</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">Возврат товара</a></li>
+					</ul>
+				</div>
+				<div class="footer-menu-item">
+					<h5>Клиентам</h5>
+					<ul>
+						<li><a href="#">Личный кабинет</a></li>
+						<li><a href="#">История заказов</a></li>
+						<li><a href="#">Закладки</a></li>
+						<li><a href="#">Рассылки</a></li>
+						<li><a href="#">Партнерская программа</a></li>
+					</ul>
+				</div>
+				<div class="footer-menu-item">
+					<h5>Допольнительно</h5>
+					<ul>
+						<li><a href="#">Производители</a></li>
+						<li><a href="#">Подарочные сертификаты</a></li>
+						<li><a href="#">Скидки и распродажи</a></li>
+						<li><a href="#">Карта сайта</a></li>
+						<li><a href="#">Связаться с нами</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<div class="container">
+				<p>LIMASO &copy; 2018. Все права защищены.</p>
+				<div class="contacts">
+					<a href="#"><img src="img/fb.png" alt=""></a>
+					<a href="#"><img src="img/tw.png" alt=""></a>
+					<a href="#"><img src="img/rss.png" alt=""></a>
+					<a href="#"><img src="img/g+.png" alt=""></a>
+					<a href="#"><img src="img/linkedin.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="bg-popup"></div>
+	<div class="popup" id="popup-1">
+		
+		<form class="credit-card">
+		<h3>Данные банковской карты</h3>
+			<div class="form-body">
+	 			<div class="main-block">
+	 				<!-- Card Number -->
+			        <label for="card-number">Номер карты</label>
+			        <div class="card-number-block">
+			        	<input type="text" class="card-number" rel="card-number" name="card_number">
+				        <input type="text" class="card-number" rel="card-number" name="card_number">
+				        <input type="text" class="card-number" rel="card-number" name="card_number">
+				        <input type="text" class="card-number" rel="card-number" name="card_number">
+			        </div>
+			        			 
+			        <!-- Date Field -->
+			        <label for="">Срок действия</label>
+			        <div class="date-field">
+			        	<select name="month">
+			              <option value="january">01</option>
+			              <option value="february">02</option>
+			              <option value="march">03</option>
+			              <option value="april">04</option>
+			              <option value="may">05</option>
+			              <option value="june">06</option>
+			              <option value="july">07</option>
+			              <option value="august">08</option>
+			              <option value="september">09</option>
+			              <option value="october">10</option>
+			              <option value="november">11</option>
+			              <option value="december">12</option>
+			            </select>
+			            <select name="year">
+			              <option value="2016">2016</option>
+			              <option value="2017">2017</option>
+			              <option value="2018">2018</option>
+			              <option value="2019">2019</option>
+			              <option value="2020">2020</option>
+			              <option value="2021">2021</option>
+			              <option value="2022">2022</option>
+			              <option value="2023">2023</option>
+			              <option value="2024">2024</option>
+			            </select>
+			        </div>
+			        <input name="name" type="text" class="holder" placeholder="Держатель карты">
+
+	 			</div>
+		        	<!-- Card Verification Field -->
+			        <div class="card-verification">
+			        	<div class="card-line"></div>
+			            <div class="cvv-input">
+			            	<label for="cvv">Код CVV / CVV2</label>
+			                <input type="text" name="cvv">
+			            </div>
+			        </div>		        
+		 
+		        <!-- Buttons -->
+		        <button type="submit" class="proceed-btn"><a href="#">Оплатить</a></button>
+		    </div>
+		</form>
+	</div>
+	<div class="popup" id="popup-2">
+		<div class="close-popup-wrap"><div class="close-popup"></div></div>
+		<p id="ajax_text"></p>
+	</div>
+
+	<script src="libs/jquery/dist/jquery-3.2.1.min.js"></script>
+	<script src="libs/jquery.validate/jquery.validate.min.js"></script>
+	<script src="libs/mixitup/mixitup.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="js/common.js"></script>
+	
+</body>
+</html>
+
