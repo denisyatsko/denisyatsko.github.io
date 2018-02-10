@@ -763,3 +763,6 @@ label.error {
 .close-popup::before {
 	transform: rotate(-45deg);
 }
+#ajax_text {
+	color: #000;
+}
