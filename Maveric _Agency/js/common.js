@@ -151,7 +151,7 @@ $(function() {
 	});
 	$('#see').click(function(){  
         $.ajax({  
-            url: "../text.txt",  
+            url: "text.txt",  
             cache: false,  
             success: function(html){  
                 $("#ajax_text").html(html);  
