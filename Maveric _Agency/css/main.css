@@ -356,9 +356,17 @@ header {
 	background-color: #eeeeee !important;
 	position: relative;
 	margin-bottom: 20px;
+	cursor: pointer;
 }
 .ui-slider-horizontal .ui-slider-handle {
-	top: -0.5em !important;
+	top: -0.5em !important;	
+}
+.ui-slider .ui-slider-handle {
+	cursor: pointer !important;
+}
+.ui-slider .ui-slider-handle:focus {
+	outline: none;
+	background-color: #fff;
 }
 .ui-widget-header {
 	background-color: #D2A072 !important;
@@ -645,7 +653,7 @@ form label {
 	z-index: 9;
 	margin-bottom: 30px;
 }
-.credit-card h3 {
+.popup-title {
 	color: #000;
 	text-align: left;
 	margin-bottom: 20px;

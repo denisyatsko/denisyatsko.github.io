@@ -62,9 +62,6 @@ $(function() {
 	// Slider range
 	var products_global = [];
 	var products_stars_array =[]; 
-
-	// var fromto = [];
-
 	$(".products-item").each(function( index, value ){
 		products_stars_array.push($(this).attr('data-myorder'));
 	});
@@ -75,10 +72,6 @@ $(function() {
 			$(cat).each(function( index, value ){ 
 				products_stars_array.push($(this).attr('data-myorder'));
 				console.log(products_stars_array);
-
-				// var to = fromto.to1;
-				// var from = fromto.from1;
-		
 			});
 		} else {
 			$(".products-item").each(function( index, value ){
@@ -93,8 +86,8 @@ $(function() {
 	    $( "#slider-range" ).slider({
 			range: true,
 			min: 150,
-			max: 7000,
-			values: [ 160, 5800 ],	
+			max: 8000,
+			values: [ 160, 6100 ],	
 			slide: function( event, ui ) {
 				$( "#amount_1" ).val(ui.values[ 0 ] );
 				$( "#amount_2" ).val(ui.values[ 1 ] );
@@ -102,10 +95,6 @@ $(function() {
 			change: function( event, ui ) {
 				var from = (ui.values[0]);
 				var to = (ui.values[1]);
-
-				// fromto.to1 = to;
-				// fromto.from1 = from;
-
 				var products = products_stars_array;
 				var cat = products_global.cat_p;
 				for (var i = 0; i <= products.length-1; i++) {
