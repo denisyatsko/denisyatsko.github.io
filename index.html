@@ -25,12 +25,14 @@
 	<meta name="msapplication-navbutton-color" content="#000">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
-
 	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
 </head>
 
 <body>
-
+<div class="seq-preloader" id="preloader">
+	<svg width="39" height="16" viewBox="0 0 39 16" xmlns="http://www.w3.org/2000/svg" class="seq-preload-indicator"><path class="seq-preload-circle seq-preload-circle-1" d="M3.999 12.012c2.209 0 3.999-1.791 3.999-3.999s-1.79-3.999-3.999-3.999-3.999 1.791-3.999 3.999 1.79 3.999 3.999 3.999z"/><path class="seq-preload-circle seq-preload-circle-2" d="M15.996 13.468c3.018 0 5.465-2.447 5.465-5.466 0-3.018-2.447-5.465-5.465-5.465-3.019 0-5.466 2.447-5.466 5.465 0 3.019 2.447 5.466 5.466 5.466z"/><path class="seq-preload-circle seq-preload-circle-3" d="M31.322 15.334c4.049 0 7.332-3.282 7.332-7.332 0-4.049-3.282-7.332-7.332-7.332s-7.332 3.283-7.332 7.332c0 4.05 3.283 7.332 7.332 7.332z"/></svg>
+</div>
 <div class="main-wrapper">
 	<ul id="menu">
 		<li data-menuanchor="secondPage"><a href="#secondPage">about</a></li>
@@ -70,7 +72,20 @@
 		<div class="section portfolio">
 			<div class="flex">
 				<div class="project-item">
-					<img src="img/project_1.jpg" alt="">
+					<a href="http://pilot-med.com/" class="project_content" target="blanc">
+						<h3>Pilot</h1>
+						<p>Web development</p>
+						<p>Bootstrap 4, Flex, Gulp, Sass, JS</p>
+					</a>
+				</div>
+				<div class="project-item">
+					<a href="http://design.scaleup.promo/" class="project_content" target="blanc">
+						<h3>Room Design</h1>
+						<p>Web development</p>
+						<p>Bootstrap 4, Flex, Gulp, Sass, JS</p>
+					</a>
+				</div>
+				<div class="project-item">
 					<a href="http://lavconsult.com.ua/" class="project_content" target="blanc">
 						<h3>LAVconsult</h1>
 						<p>Web development</p>
@@ -78,7 +93,28 @@
 					</a>
 				</div>
 				<div class="project-item">
-					<img src="img/project_2.jpg" alt="">
+					<a href="http://venezia.in.ua/" class="project_content" target="blanc">
+						<h3>Venezia</h1>
+						<p>Web design+dev</p>
+						<p>Wordpress, Flex, Gulp, Sass, JS</p>
+					</a>
+				</div>
+				<!-- <div class="project-item">
+					<a href="https://vegcouture.com" class="project_content" target="blanc">
+						<h3>Vegcouture</h1>
+						<p>Web development</p>
+						<p>Wordpress, JS, Google Maps API</p>
+					</a>
+				</div> -->
+				<!-- <div class="project-item">
+					<img src="img/project_5.jpg" alt="">
+					<a href="http://yatsko.zzz.com.ua/" class="project_content" target="blanc">
+						<h3>Test work</h1>
+						<p>Web development</p>
+						<p>Flex, Gulp, Sass, JS, JSON</p>
+					</a>
+				</div> -->
+				<div class="project-item">
 					<a href="http://ira-mua.com.ua" class="project_content" target="blanc">
 						<h3>Ira-mua</h1>
 						<p>Web design+dev</p>
@@ -86,33 +122,8 @@
 					</a>
 				</div>
 				<div class="project-item">
-					<img src="img/project_3.jpg" alt="">
-					<a href="http://venezia.in.ua/" class="project_content" target="blanc">
-						<h3>Venezia</h1>
-						<p>Web design+dev</p>
-						<p>Wordpress, Flex, Gulp, Sass, JS</p>
-					</a>
-				</div>
-				<div class="project-item">
-					<img src="img/project_4.jpg" alt="">
-					<a href="https://vegcouture.com" class="project_content" target="blanc">
-						<h3>Vegcouture</h1>
-						<p>Web development</p>
-						<p>Wordpress, JS, Google Maps API</p>
-					</a>
-				</div>
-				<div class="project-item">
-					<img src="img/project_5.jpg" alt="">
-					<a href="http://yatsko.zzz.com.ua/" class="project_content" target="blanc">
-						<h3>Test work</h1>
-						<p>Web development</p>
-						<p>Flex, Gulp, Sass, JS, JSON</p>
-					</a>
-				</div>
-				<div class="project-item">
-					<img src="img/project_6.jpg" alt="">
-					<a href="https://www.apy.com.ua/" class="project_content" target="blanc">
-						<h3>Apy print(in progress)</h1>
+					<a href="https://apy.com.ua/" class="project_content" target="blanc">
+						<h3>Apy print</h1>
 						<p>Web development</p>
 						<p>Flex, Gulp, Sass, JS, Ajax</p>
 					</a>
@@ -138,12 +149,12 @@
 		</div>
 	</div>
 </div>
-
-	<link rel="stylesheet" href="css/main.min.css">
-	<link rel="stylesheet" href="css/jquery.fullPage.css">
 	
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="libs/fullPage/jquery.fullPage.css">
 	<script src="https://use.fontawesome.com/ce41d51ffc.js"></script>
 	<script src="js/scripts.min.js"></script>
+	<!-- <script src="js/common.js"></script> -->
 	<script src="https://cdn.jsdelivr.net/npm/typeit@5.5.0/dist/typeit.min.js"></script>
 </body>
 </html>
