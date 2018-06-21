@@ -1,0 +1,80 @@
+body {
+	background-color: #eeeeee;
+	font-size: 16px;
+}
+
+.title {
+	color: #303030;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.notes-editor-wrap {
+	position: relative;
+}
+
+.notes-add-button {
+	position: absolute;
+	bottom: 15px;
+	right: 10px;
+	border: none;
+	border-radius: 20%;
+	padding: 5px 15px;
+	background-color: rgba(0,154,0, 0.6);
+	cursor: pointer
+}
+
+.notes-add-button:hover {
+	background-color: rgba(0,154,0, 1);
+}
+
+.notes-editor {
+	width: 500px;
+	margin: 15px 0 0 0;
+	padding: 15px;
+}
+
+.notes-grid {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.note-item {
+	width: 320px;
+	padding: 10px;
+	margin: 10px 20px;
+	position: relative;
+	border: 1px solid #D47402;
+	-webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.55);
+	-moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.55);
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.55);
+}
+
+.note-item:hover {
+	-webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+}
+
+.note-delete {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-size: 20px;
+	line-height: 10px;
+	width: 10px;
+	height: 10px;
+	display: block;
+	cursor: pointer;
+}
+
+.note-delete:hover {
+	color: rgba(245,17,48,1);
+}
