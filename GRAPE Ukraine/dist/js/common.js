@@ -59,7 +59,7 @@ $(document).ready(function() {
 			},
 			focusCleanup: true,
 			focusInvalid: false,
-			submitHandler: function(){
+			submitHandler: function(form){
 				$('#popup, .overflow').css({'display':'flex'});
 				if ($(window).width() < 768) {
 					$('.main-footer').toggleClass('fixed-footer');
@@ -67,7 +67,7 @@ $(document).ready(function() {
 					$('html, body').animate({ scrollTop: 0 }, 200);
 				}
 				// alert('Спасибо за заявку, с вами свяжутся в ближайшее время!');
-				var th = $(this);
+				var th = $('#form');
 					$.ajax({
 						type: "POST",
 						url: "mail.php",
