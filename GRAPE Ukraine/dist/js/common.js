@@ -29,57 +29,71 @@ $(document).ready(function() {
 	}, "Letters only please");
 
 	// Validate and submite form
-	// $('#form').each(function() {
-	    $('#form').validate({
-			rules: {
-				name: {
-					required: true,
-					minlength: 2,
-					lettersonly: true
-				},
-				email: {
-					required: true,
-					email: true,
-				},
-				adult: {
-					required: true
-				}
+    $('#form').validate({
+		rules: {
+			name: {
+				required: true,
+				minlength: 2,
+				lettersonly: true
 			},
-			messages: {
-				name: {
-					required: "Too short name",
-					minlength: "Too short name"
-				},
-				adult: {
-					required: "Это поле обязательно для заполнения"
-				},
-				email: {
-					required: "Wrong email"
-				}
+			email: {
+				required: true,
+				email: true,
 			},
-			focusCleanup: true,
-			focusInvalid: false,
-			submitHandler: function(form){
-				$('#popup, .overflow').css({'display':'flex'});
-				if ($(window).width() < 768) {
-					$('.main-footer').toggleClass('fixed-footer');
-					$('body').toggleClass('overflow-body');
-					$('html, body').animate({ scrollTop: 0 }, 200);
-				}
-				// alert('Спасибо за заявку, с вами свяжутся в ближайшее время!');
-				var th = $('#form');
-					$.ajax({
-						type: "POST",
-						url: "mail.php",
-						data: th.serialize()
-					}).done(function() {
-						setTimeout(function() {
-							th.trigger("reset");
-						}, 1000);
-					});
-				return false;
+			adult: {
+				required: true
 			}
-		});
+		},
+		messages: {
+			name: {
+				required: "Too short name",
+				minlength: "Too short name"
+			},
+			adult: {
+				required: "Это поле обязательно для заполнения"
+			},
+			email: {
+				required: "Wrong email"
+			}
+		},
+		focusCleanup: true,
+		focusInvalid: false,
+		// submitHandler: function(form){
+		// 	$('#popup, .overflow').css({'display':'flex'});
+		// 	if ($(window).width() < 768) {
+		// 		$('.main-footer').toggleClass('fixed-footer');
+		// 		$('body').toggleClass('overflow-body');
+		// 		$('html, body').animate({ scrollTop: 0 }, 200);
+		// 	}
+		// 	var th = $('#form');
+		// 		$.ajax({
+		// 			type: "POST",
+		// 			url: "mail.php",
+		// 			data: th.serialize()
+		// 		}).done(function() {
+		// 			setTimeout(function() {
+		// 				th.trigger("reset");
+		// 			}, 1000);
+		// 		});
+		// 	return false;
+		// }
+		submitHandler: function(){
+			alert('Спасибо за заявку, теперь вы подписаны на новости!');
+			// $(".popup, .overflow, label.error").hide();
+			// $("body").removeClass("overflow-body");
+			var th = $("#form");
+				$.ajax({
+					type: "POST",
+					url: "mail.php",
+					data: th.serialize()
+				}).done(function() {
+					setTimeout(function() {
+						th.trigger("reset");
+					}, 1000);
+				});
+			return false;
+		}
+	});
 	
 	$(".overflow").click(function(){
 		$(this).hide();
