@@ -25,7 +25,7 @@ $(document).ready(function() {
 	});
 
 	jQuery.validator.addMethod("lettersonly", function(value, element) {
-	  return this.optional(element) || /^[a-z]+$/i.test(value);
+	  return this.optional(element) || /^[a-z]+$/i.test(value) || /^[А-ЯЁ][а-яё]*$/i.test(value);
 	}, "Letters only please");
 
 	// Validate and submite form
@@ -89,5 +89,5 @@ $(document).ready(function() {
 		$('#popup, .overflow').hide();
 		$('body').removeClass('overflow-body');
 	});
-	
+
 });
