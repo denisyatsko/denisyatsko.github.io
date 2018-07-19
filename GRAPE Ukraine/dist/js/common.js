@@ -3,10 +3,10 @@ $(document).ready(function() {
 	new WOW().init()
 
 	// preloader
-	// $(window).on("load", function() {
-	// 	var $preloader = $("#preloader");
-	// 	$preloader.delay(250).fadeOut('slow');
-	// });
+	$(window).on("load", function() {
+		var $preloader = $("#preloader");
+		$preloader.delay(250).fadeOut('slow');
+	});
 
 	// toggle-menu
 	$('.toggle-menu').click(function(){
@@ -83,8 +83,8 @@ $(document).ready(function() {
 	
 	$(".overflow").click(function(){
 		$(this).hide();
-		$(".popup").hide();
-		$("body").removeClass("overflow-body");
+		$('#popup, .overflow').hide();
+		$('body').removeClass('overflow-body');
 	});
 
 	$('.close-wrapper').click(function(){

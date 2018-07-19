@@ -15,8 +15,8 @@
   src: url("../fonts/Ruluko/Ruluko.ttf"); }
 
 @font-face {
-  font-family: "RobotoMedium";
-  src: url("../fonts/RobotoMedium/RobotoMedium.ttf"); }
+  font-family: "RobotoThin";
+  src: url("../fonts/RobotoThin/RobotoThin.ttf"); }
 
 /*!
  * animate.css -http://daneden.me/animate
@@ -2768,7 +2768,8 @@ a:focus {
     line-height: 75px;
     letter-spacing: 0.33px;
     color: #E98D87;
-    margin-bottom: 32px; }
+    margin-bottom: 32px;
+    font-family: "RobotoThin"; }
   #popup .close-wrapper {
     width: 26px;
     height: 26px;

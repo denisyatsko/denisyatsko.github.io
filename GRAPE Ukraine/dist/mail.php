@@ -6,7 +6,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 $c = true;
 if ( $method === 'POST' ) {
 
-	// $project_name = trim($_POST["project_name"]);
+	$project_name = trim($_POST["project_name"]);
 	$admin_email  = trim($_POST["admin_email"]);
 	$form_subject = trim($_POST["form_subject"]);
 
