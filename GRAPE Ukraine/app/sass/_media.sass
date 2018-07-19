@@ -1,0 +1,284 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width : 1440px)
+	.main-footer
+		.menu
+			margin-right: 30px
+			li
+				margin: 0
+				a 
+					padding: 0 15px
+	.main-section
+		&:after
+			right: -20px
+		.women-wrapper
+			width: 640px
+			&:before
+				width: 650px
+			.wreath
+				width: 620px
+		.main-content
+			form
+				h2 
+					font-size: 36px
+					margin-bottom: 15px
+	#popup
+		width: 600px
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	body
+		font-size: 14px
+	.main-section
+		&:after
+			right: -80px
+			background-size: 60% 100%
+			top: -15px
+		.women-wrapper
+			width: 340px
+			margin: 0 0 0 16px
+			&:before
+				width: 350px
+			.wreath
+				width: 330px
+				top: 55px
+				left: 20px
+		.main-content
+			// justify-content: flex-start
+			// margin: 0 auto
+			// width: 410px
+			h1 
+				font-size: 64px
+			form
+				img 
+					display: none
+				h2
+					font-size: 24px
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	body
+		font-size: 12px
+	.main-section .main-content
+		margin-right: 12%
+	#popup
+		height: 400px
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	#content
+		height: 100%
+	.main-section
+		justify-content: flex-start
+		flex-direction: column
+		align-items: center
+		flex: 1 1 auto
+		padding-bottom: 15px
+		&:before
+			width: 90%
+			height: 435px
+			background-size: cover
+			background-position: 50% 50%
+		&:after
+			display: none
+		.women-wrapper
+			position: relative
+			width: 100%
+			height: 440px
+			overflow: hidden
+			left: 0
+			bottom: 0
+			margin: 0 0 25px 0
+			&:before
+				width: 97%
+			.wreath
+				width: 92%
+				top: -40%
+				left: 15px
+			.woman 
+				position: absolute
+				top: 80%
+				left: 54%
+				transform: translate(-50%, -50%)
+				margin: 0
+		.main-content
+			margin: 0 auto
+			form
+				.checkbox-wrapper
+					flex-wrap: nowrap
+	.main-header
+		justify-content: flex-start
+		z-index: 999
+		.toggle-menu
+			display: block
+			margin: 8px
+		.menu
+			display: none
+			height: 100vh
+			background-color: #fff
+			flex-direction: column
+			justify-content: center
+			position: fixed
+			padding: 0
+			top: 34px
+			li 
+				color: $main_color
+				margin-bottom: 35px
+				font-size: 36px
+				line-height: 49px
+				&:hover
+					background-color: $main_color
+					color: #fff
+	.main-footer
+		justify-content: center
+		z-index: 999
+		.menu
+			display: none
+		.copy
+			position: static
+			top: 0
+			left: 0
+			transform: none
+			margin: 10px 0
+	.main-footer
+		&.fixed-footer
+			position: fixed
+			bottom: 0
+			visibility: visible !important
+	#popup
+		height: 100vh
+		width: 100%
+		padding: 20px
+		top: 0
+		left: 0
+		transform: none
+		z-index: 998
+		.close-wrapper
+			top: 45px
+			right: 10px
+		p 
+			font-size: 36px
+			line-height: 42px
+		img 
+			max-width: 220px
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		// -o-transform: none !important
+		// -moz-transform: none !important
+		// -ms-transform: none !important
+		// -webkit-transform: none !important
+		// transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	#content
+		height: auto
+	.main-section
+		padding-bottom: 20px
+		.women-wrapper
+			height: 180px
+			.woman 
+				max-width: 95%
+			.wreath
+				top: 5%
+				left: 50%
+				transform: translate(-50%, -50%)
+		.main-content
+			width: 100%
+			padding: 10px 20px 20px 20px
+			h1
+				font-size: 40px
+			form
+				h2 
+					font-size: 18px
+					margin-bottom: 20px
+				.radio-wrapper
+					margin-bottom: 15px
+					p 
+						max-width: 100px
+				.checkbox-wrapper
+					margin-bottom: 25px
+					flex-wrap: wrap
+					> p 
+						max-width: none
+						margin-bottom: 15px
+	.btn
+		width: 135px
+	.main-header 
+		.menu 
+			height: calc(100vh - 72px)
+			li
+				font-size: 18px
+				line-height: 32px
+				margin-bottom: 20px
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
+/* iPad Mini in landscape only */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+	/**/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+	#content
+		height: 100vh
+
+@media only screen and (orientation : landscape) and (max-device-height : 768px) and (min-device-width : 992px)
+	.main-section 
+		.women-wrapper 
+			&:before
+				width: 480px
+			.woman
+				max-width: 70%
+			.wreath
+				width: 440px
+				top: -20px
+				left: 20px
+		.main-content
+			padding: 20px 0
+		.main-content
+			h1 
+				font-size: 64px
+			form
+				img 
+					display: none
+				h2
+					font-size: 24px
