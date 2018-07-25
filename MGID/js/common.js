@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	preloader
+	//preloader
 	$(window).on("load", function() {
 		var $preloader = $("#preloader");
 		$preloader.delay(250).fadeOut('slow');
