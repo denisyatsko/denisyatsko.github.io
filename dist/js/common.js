@@ -67,7 +67,6 @@ var calcAvarege = function calcAvarege(item) {
 };
 
 document.addEventListener('DOMContentLoaded', function () {
-
     if (toggleMenu) {
         toggleMenu.onclick = function () {
             return toggleOn(toggleMenu, headerNav);
@@ -135,15 +134,21 @@ document.addEventListener('DOMContentLoaded', function () {
         categoriesItemActionBtn.forEach(function (item) {
             var list = item.previousElementSibling;
 
-            item.addEventListener('mouseenter', function () {
-                if (!list.classList.contains('on')) {
-                    list.classList.add('on');
-                }
-            });
+            if (window.screen.width > 998) {
+                item.addEventListener('mouseenter', function () {
+                    if (!list.classList.contains('on')) {
+                        list.classList.add('on');
+                    }
+                });
+            }
 
-            item.addEventListener('click', function () {
+            item.addEventListener('click', function (e) {
+                e.preventDefault();
+
                 if (list.classList.contains('on')) {
                     list.classList.remove('on');
+                } else if (window.screen.width < 998) {
+                    list.classList.add('on');
                 }
             });
         });
