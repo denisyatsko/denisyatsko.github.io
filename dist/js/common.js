@@ -10,7 +10,9 @@ var toDown = document.querySelector('#toDown');
 var homeTopSection = document.querySelector('#homeTopSection');
 var headerNav = document.querySelector('#headerNav');
 var categoriesItemActionBtn = document.querySelectorAll('.categories-item-action-btn');
+var categoriesItems = document.querySelectorAll('.categories-content');
 var preloader = document.querySelector('#preloader');
+var reviewItems = document.querySelectorAll('.review__product-card');
 
 var preloaderInit = function preloaderInit() {
     setTimeout(function () {
@@ -49,7 +51,23 @@ var handlerToDown = function handlerToDown(item) {
     });
 };
 
+var calcAvarege = function calcAvarege(item) {
+    var ratingItems = item.querySelectorAll('.product-card-progress-js');
+    var average = item.querySelector('.sum-js');
+    var valuesArray = [];
+    ratingItems.forEach(function (item) {
+        return valuesArray.push(parseInt(item.dataset.value, 10));
+    });
+    var sum = valuesArray.reduce(function (a, b) {
+        return a + b;
+    });
+    var averageValue = sum / valuesArray.length;
+
+    average.innerText = averageValue;
+};
+
 document.addEventListener('DOMContentLoaded', function () {
+
     if (toggleMenu) {
         toggleMenu.onclick = function () {
             return toggleOn(toggleMenu, headerNav);
@@ -71,18 +89,24 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     if (productCardProgressJs) {
-        if (window.screen.width < 998) {
-            productCardProgressJs.forEach(function (item) {
+        productCardProgressJs.forEach(function (item) {
+            if (window.screen.width < 998) {
                 var value = item.dataset.value;
 
                 item.style.width = value + '%';
                 item.nextElementSibling.innerHTML = value;
-            });
-        } else {
-            productCardProgressJs.forEach(function (item) {
-                return initCircleProgress(item);
-            });
-        }
+            } else {
+                productCardProgressJs.forEach(function (item) {
+                    initCircleProgress(item);
+                });
+            }
+        });
+    }
+
+    if (reviewItems) {
+        reviewItems.forEach(function (item) {
+            return calcAvarege(item);
+        });
     }
 
     if (toDown) {
@@ -91,10 +115,36 @@ document.addEventListener('DOMContentLoaded', function () {
         };
     }
 
-    if (categoriesItemActionBtn) {
+    if (categoriesItemActionBtn && categoriesItems) {
+        categoriesItems.forEach(function (item) {
+            item.addEventListener('mouseleave', function () {
+                var list = item.querySelector('.list-container ul');
+
+                item.style.zIndex = 'auto';
+
+                if (list.classList.contains('on')) {
+                    list.classList.remove('on');
+                }
+            });
+
+            item.addEventListener('mouseenter', function () {
+                item.style.zIndex = 4;
+            });
+        });
+
         categoriesItemActionBtn.forEach(function (item) {
-            return item.addEventListener('click', function () {
-                return toggleOn(item.previousElementSibling);
+            var list = item.previousElementSibling;
+
+            item.addEventListener('mouseenter', function () {
+                if (!list.classList.contains('on')) {
+                    list.classList.add('on');
+                }
+            });
+
+            item.addEventListener('click', function () {
+                if (list.classList.contains('on')) {
+                    list.classList.remove('on');
+                }
             });
         });
     }
