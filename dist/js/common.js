@@ -13,6 +13,7 @@ var categoriesItemActionBtn = document.querySelectorAll('.categories-item-action
 var categoriesItems = document.querySelectorAll('.categories-content');
 var preloader = document.querySelector('#preloader');
 var reviewItems = document.querySelectorAll('.review__product-card');
+var footerAccordionJs = document.querySelectorAll('.footer-accordion-js');
 
 var preloaderInit = function preloaderInit() {
     setTimeout(function () {
@@ -75,6 +76,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (window.screen.width < 998) {
         headerMobileDropdown.forEach(function (item) {
+            item.addEventListener('click', function () {
+                return toggleOn(item.parentNode);
+            });
+        });
+    }
+
+    if (footerAccordionJs && window.screen.width < 998) {
+        footerAccordionJs.forEach(function (item) {
             item.addEventListener('click', function () {
                 return toggleOn(item.parentNode);
             });
